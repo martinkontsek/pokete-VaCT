@@ -1427,6 +1427,28 @@ w        w""",
 W         W""",
             "esc": None}]
     },
+    "uberpavous": {
+    "name": "MM",
+    "hp": 50,
+    "atc": 8,
+    "defense": 2,
+    "attacks": ["bite", "power_bite"],
+    "pool": [],
+    "miss_chance": 0,
+    "desc": "Dnagerous spider like Pokete with strong mandibles.",
+    "lose_xp": 2,
+    "rarity": 0.6,
+    "types": ["poison", "normal"],
+    "evolve_poke": "",
+    "evolve_lvl": 0,
+    "initiative": 5,
+    "ico": [{
+        "txt": r"""  /\...../\
+                     /\OO_OO/\
+                     /       \
+                    0         0""",
+        "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
