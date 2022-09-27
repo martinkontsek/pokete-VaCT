@@ -1,5 +1,33 @@
 attacks = {
     # normal attacks
+     "throw_bread": {
+        "name": "Throw bread",
+        "factor": 3 / 2,
+        "action": None,
+        "world_action": "",
+        "move": ["attack"],
+        "miss_chance": 0.25,
+        "min_lvl": 0,
+        "desc": "Throw bread at an enemy.",
+        "types": ["normal"],
+        "effect": None,
+        "is_generic": True,
+        "ap": 20,
+    },
+    "slap_in_the_face": {
+        "name": "Slap in the face",
+        "factor": 4 / 2,
+        "action": None,
+        "world_action": "",
+        "move": ["attack"],
+        "miss_chance": 0.05,
+        "min_lvl": 0,
+        "desc": "Slap an enemy to their face.",
+        "types": ["normal"],
+        "effect": None,
+        "is_generic": True,
+        "ap": 30,
+    },
     "tackle": {
         "name": "Tackle",
         "factor": 3 / 2,
