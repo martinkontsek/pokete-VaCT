@@ -48,28 +48,6 @@ pokes = {
  +-------+ """,
             "esc": None}],
     },
-        "cundovNemesis": {
-        "name": "Cundov Nemesis",
-        "hp": 100,
-        "atc": 5,
-        "defense": 1,
-        "attacks": ["brick_throw"],
-        "pool": [],
-        "miss_chance": 0,
-        "desc": "A fallen hero's nemesis.",
-        "lose_xp": 3,
-        "rarity": 1,
-        "types": ["stone", "normal"],
-        "evolve_poke": "",
-        "evolve_lvl": 0,
-        "initiative": 5,
-        "ico": [{
-            "txt": r""" +-------+
- |  o   o |
- |  -----  |
- +-------+ """,
-            "esc": None}],
-    },
     "mowcow": {
         "name": "Mowcow",
         "hp": 20,
@@ -1448,6 +1426,36 @@ w        w""",
 //  '''  \\
 W         W""",
             "esc": None}]
+    },
+
+    "Pikachu": {
+        "name": "Marinada",
+        "hp": 40,
+        "atc": 5,
+        "defense": 3,
+        "attacks": ["tackle", "mind_blow", "wet_slap", "heart_touch"],
+        "pool": ["cry"],
+        "miss_chance": 0,
+        "desc": "Marinada is a mighty Pokemon of Pikachu's descent. (Piko piko)",
+        "lose_xp": 6,
+        "rarity": 0.001,
+        "types": ["electro", "normal", "water"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 7,
+        "ico": [{
+            "txt": r""" ⣿⣿⣿⣿⣿⡏⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣿
+⣿⣿⣿⣿⣿⣿⠀⠀⠀⠈⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠛⠉⠁⠀⣿
+⣿⣿⣿⣿⣿⣿⣧⡀⠀⠀⠀⠀⠙⠿⠿⠿⠻⠿⠿⠟⠿⠛⠉⠀⠀⠀⠀⠀⣸⣿
+⣿⣿⣿⣿⣿⣿⣿⣷⣄⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣴⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⢰⣹⡆⠀⠀⠀⠀⠀⠀⣭⣷⠀⠀⠀⠸⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠈⠉⠀⠀⠤⠄⠀⠀⠀⠉⠁⠀⠀⠀⠀⢿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⢾⣿⣷⠀⠀⠀⠀⡠⠤⢄⠀⠀⠀⠠⣿⣿⣷⠀⢸⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⡀⠉⠀⠀⠀⠀⠀⢄⠀⢀⠀⠀⠀⠀⠉⠉⠁⠀⠀⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿""",
+            "esc": None}],
     },
 }
 
