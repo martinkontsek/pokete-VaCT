@@ -1427,6 +1427,28 @@ w        w""",
 W         W""",
             "esc": None}]
     },
+    "matej": {
+        "name": "matej",
+        "hp": 25,
+        "atc": 5,
+        "defense": 1,
+        "attacks": ["poison_bite", "bite", "normal", "charging"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Dnagerous when hungry.",
+        "lose_xp": 4,
+        "rarity": 0.5,
+        "types": ["poison", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 30,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  /\~-~/\
+ //\0_0/\\
+//  '''  \\
+W         W""",
+            "esc": None}]
+    }
 }
 
 if __name__ == "__main__":
