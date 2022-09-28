@@ -26,6 +26,29 @@ pokes = {
             "txt": """ """,
             "esc": None}],
     },
+    "vincent": {
+        "name": "Vincent",
+        "hp": 45,
+        "atc": 4,
+        "defense": 1,
+        "attacks": ["throw_bread", "slap_in_the_face"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Vincent - some random Slovak citizen.",
+        "lose_xp": 3,
+        "rarity": 1,
+        "types": ["stone", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r""" +||||||||+
+ | O   O |
+ |   x   |
+  --   --
+    ---""",
+            "esc": None}],
+    },
     "steini": {
         "name": "Steini",
         "hp": 25,
