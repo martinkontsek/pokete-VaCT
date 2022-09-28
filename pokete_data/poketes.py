@@ -1444,8 +1444,8 @@ W         W""",
         "initiative": 5,  # The Pokete's initiative points that will added to the Pokete's level, and determine what Pokete starts in a fight
         "ico": [{  # A list of dictionaries containing a displayed string and a color; all those strings will be layered over each other and represent the Pokete in the fight
             "txt": """ +-------+
- | o   o |
- |  ---  |
+ | o   O |
+ |  ===  |
  +-------+ """,
             "esc": None}],
     },
