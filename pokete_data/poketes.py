@@ -1449,6 +1449,31 @@ w        w""",
 W         W""",
             "esc": None}]
     },
+
+    "bloodfly": {
+        "name": "Blood Fly",
+        "hp": 15,
+        "atc": 3,
+        "defense": 2,
+        "attacks": ["poison_bite", "bite"],
+        "pool": [],
+        "miss_chance": 2,
+        "desc": "Giant fly that appears mainly in the swamps",
+        "lose_xp": 2,
+        "rarity": 1,
+        "types": ["poison", "normal"],
+        "evolve_poke": "",
+        "evolve_level": 0,
+        "initiative": 3,
+        "ico": [{
+            "txt": r"""
+  --	--
+   \   /
+__m_0_0_m__
+     |""",
+        "esc":None
+        }]
+    },
 }
 
 if __name__ == "__main__":
