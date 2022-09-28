@@ -1449,6 +1449,30 @@ w        w""",
 W         W""",
             "esc": None}]
     },
+
+
+       "poundi": {
+        "name": "Kubik",
+        "hp": 50,
+        "atc": 9,
+        "defense": 5,
+        "attacks": ["tackle", "politure", "earch_quake"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A powerful and heavy stone Pokete that lives in mountain caves.",
+        "lose_xp": 4,
+        "rarity": 0.7,
+        "types": ["stone", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 4,
+        "ico": [{
+            "txt": r"""   A-A-A
+  < o o >
+  < --- >
+   VvVvV""",
+            "esc": None}],
+    },
 }
 
 if __name__ == "__main__":
