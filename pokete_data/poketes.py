@@ -1427,6 +1427,30 @@ w        w""",
 W         W""",
             "esc": None}]
     },
+    "mewtwo": {
+        "name": "Newtwo",
+        "hp": 106,
+        "atc": 110,
+        "defense": 90,
+        "attacks": ["freeze", "dick_energy", "pick", "power_bite"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Newtwo is a Psychic type Pokémon introduced in Generation 1. It is known as the Genetic Pokémon..",
+        "lose_xp": 120,
+        "rarity": 0.01,
+        "types": ["electro", "flying"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""
+            /-\/-\
+          (O   O )
+        <         )
+         \_______/
+            """,
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
