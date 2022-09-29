@@ -1427,6 +1427,28 @@ w        w""",
 W         W""",
             "esc": None}]
     },
+    "hinderko": {
+        "name": "Hinderko",
+        "hp": 20,
+        "atc": 10,
+        "defense": 2,
+        "attacks": ["steel_slap", "fake_uid", "magspoof", "rf_spoof", "relay_attack"],
+        "pool": [],
+        "miss_chance": 0.5,
+        "desc": "Cyber Dolphin in your pocket; Multitool for hackers.",
+        "lose_xp": 4,
+        "rarity": 5,
+        "types": ["cyborg", "normal"], #existuje cyborg
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+       "ico": [{  # A list of dictionaries containing a displayed string and a color; all those strings will be layered over each other and represent the Pokete in the fight
+            "txt": """ +-------+
+ | o   o |
+ |  www  |
+ +-------+ """,
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":

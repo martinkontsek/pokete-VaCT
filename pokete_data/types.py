@@ -54,6 +54,11 @@ types = {
         "ineffective": ["undead"],
         "color": ["thicc", "green"]
     },
+    "cyborg": {
+        "effective": ["normal", "ground", "plant"],
+        "ineffective": ["stone", "water", "fire"],
+        "color": ["grey"]
+    },
 }
 
 
