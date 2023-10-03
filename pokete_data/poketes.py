@@ -1473,6 +1473,30 @@ W         W""",
     ''""",
             "esc": None}]
     },
+
+    "firefox": {
+        "name": "firefox",
+        "hp": 1,
+        "atc": 100,
+        "defense": 1,
+        "attacks": ["fire_bite", "bite", "fire_ball", "flame_throw"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Fox like FireFox.",
+        "lose_xp": 4,
+        "rarity": 0.1,
+        "types": ["fire", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  |\__/|
+   /     \
+  /_.~ ~,_\ 
+     \@/
+    ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
