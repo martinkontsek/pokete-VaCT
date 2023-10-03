@@ -1473,6 +1473,30 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "pika pika": {
+        "name": "Pikachu",
+        "hp": 60,
+        "atc": 45,
+        "defense": 20,
+        "attacks": ["dia_spikes", "toe_breaker", "supercow_power", "dick_energy"],
+        "pool": [],
+        "miss_chance": 15,
+        "desc": "Yellow collored storm like pokete with powerful attacks.",
+        "lose_xp": 4,
+        "rarity": 0.01,
+        "types": ["storm", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  
+ |\ /  \ /|
+  \|o  o|/
+   |    |
+   |____|
+   """,
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
