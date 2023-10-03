@@ -1473,6 +1473,31 @@ W         W""",
     ''""",
             "esc": None}]
     },
+
+    "american": {
+        "name": "American",
+        "hp": 80,
+        "atc": 210,
+        "defense": 55,
+        "attacks": ["storm_gust", "stone_crush", "dick_energy", "fire_ball"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Pro-American human live in Warszaw",
+        "lose_xp": 4,
+        "rarity": 0.1,
+        "types": ["fire", "normal", "water"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  /\____/\
+ \	    /
+  |*  *|
+  \    /
+   \../
+    ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
