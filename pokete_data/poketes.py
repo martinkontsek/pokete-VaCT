@@ -1473,6 +1473,29 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "kuto": {
+            "name": "Kuto",
+            "hp": 80,
+            "atc": 23,
+            "defense": 14,
+            "attacks": ["stone_crush", "super_sucker", "confusion", "rain_dance"],
+            "pool": [],
+            "miss_chance": 0,
+            "desc": "Fantazia.",
+            "lose_xp": 6,
+            "rarity": 0.4,
+            "types": ["ground", "undead"],
+            "evolve_poke": "",
+            "evolve_lvl": 0,
+            "initiative": 5,
+            "ico": [{
+                "txt": r"""  ______
+         /|o   o|\
+       _/ |  _  | \_
+          |_| |_|
+        ''""",
+                "esc": None}]
+        },
 }
 
 if __name__ == "__main__":
