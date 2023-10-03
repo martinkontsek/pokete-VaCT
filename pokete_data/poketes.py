@@ -1473,6 +1473,30 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "bottle": {
+        "name": "Bottle",
+        "hp": 5,
+        "atc": 15,
+        "defense": 1,
+        "attacks": ["wet_slap", "rain_dance", "bubble_bomb"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A very angry Bottle with water attacks",
+        "lose_xp": 4,
+        "rarity": 1,
+        "types": ["water"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""     ww
+  || 
+ /  \         
+|    |
+|    |
+||||||""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
