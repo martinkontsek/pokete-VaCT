@@ -1473,6 +1473,33 @@ W         W""",
     ''""",
             "esc": None}]
     },
+
+    "ragnall": {
+        "name": "Ragnall Yohanes",
+        "hp": 25,
+        "atc": 50,
+        "defense": 5,
+        "attacks": ["root_slap", "hiding", "cry", "bite"],
+        "pool": [],
+        "miss_chance": 0.1,
+        "desc": "Writing description is hard",
+        "lose_xp": 3,
+        "rarity": 0.5,
+        "types": ["plant", "ground"],
+        "evolve_poke": "radishuk",
+        "evolve_lvl": 20,
+        "initiative": 1,
+        "ico": [{
+            "txt": r""" !__ / __.
+  \_\x/_/""",
+            "esc": ["thicc", "red"]}, {
+            "txt": r"""
+
+   /- -\
+   \ x /""",
+            "esc": ["blue"]},
+        ]
+    },
 }
 
 if __name__ == "__main__":
