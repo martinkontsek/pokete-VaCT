@@ -1473,6 +1473,29 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "frog": {
+        "name": "Frog",
+        "hp": 22,
+        "atc": 7,
+        "defense": 4,
+        "attacks": ["Spikes", "Freeze", "Poison Spores", "Charging"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Frog likes to jump A LOT.",
+        "lose_xp": 4,
+        "rarity": 0.5,
+        "types": ["water", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  ()-()
+.-(___)-.
+ _<   >_
+ \/   \/
+    ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
