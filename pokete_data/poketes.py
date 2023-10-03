@@ -1473,6 +1473,29 @@ W         W""",
     ''""",
             "esc": None}]
     },
+        "Bobo-Bobo": {
+        "name": "Bobo-Bobo",
+        "hp": 10,
+        "atc": 100,
+        "defense": 1,
+        "attacks": ["cry", "bite", "power_bite", "toe_breaker"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "The monster hiding within your closet!",
+        "lose_xp": 4,
+        "rarity": 0.1,
+        "types": ["fire", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  ______
+--<|  o o  |>--
+    |  O  |
+     WWWWW
+    ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
