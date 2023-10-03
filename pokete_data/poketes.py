@@ -1473,6 +1473,30 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "greninja": {
+        "name": "greninja",
+        "hp": 72,
+        "atc": 95,
+        "defense": 67,
+        "attacks": ["Water Pulse", "Aerial Ace", "Night Slash", "Double Team"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Greninja is a Water/Dark type Poketes",
+        "lose_xp": 8,
+        "rarity": 0.9,
+        "types": ["water", "dark"],
+        "evolve_poke": "",
+        "evolve_lvl": 3,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  /\_/\_/\
+    \  |  /
+    |o | o|
+    \  |  /
+    -\---/-
+        """,
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
