@@ -1473,7 +1473,31 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "snail": {
+        "name": "Snail",
+        "hp": 10,
+        "atc": 3,
+        "defense": 10,
+        "attacks": ["poison_spores", "confusion", "shell_pinch", "flying"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Pokete with a strong shell fyling around like a madman confusing its enemies.",
+        "lose_xp": 4,
+        "rarity": 0.1,
+        "types": ["fire", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  oo  .--. 
+ \\(____)_ 
+  `~~~~~~~` 
+    ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
     print("\033[31;1mDo not execute this!\033[0m")
+
+
