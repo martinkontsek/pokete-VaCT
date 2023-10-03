@@ -1473,6 +1473,32 @@ W         W""",
     ''""",
             "esc": None}]
     },
+     "OriginalnyPokemon": {
+        "name": "PokPok",
+        "hp": 1,
+        "atc": 100,
+        "defense": 1000,
+        "attacks": ["fire_bite", "bite", "power_bite", "fire_ball"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "The most original pokemon ever.",
+        "lose_xp": 4,
+        "rarity": 0.1,
+        "types": ["fire", "normal", "pokemon"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": 
+r"""
+ _____
+ [o o]
+ [   ]
+ [   ]
+  \ /
+ """,
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
