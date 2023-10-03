@@ -1473,6 +1473,30 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "flasher": {
+        "name": "Flasher",
+        "hp": 25,
+        "atc": 3,
+        "defense": 3,
+        "attacks": ["dick_energy", "eye_pick", "leaf_storm"],
+        "pool": ["rain_dance"],
+        "miss_chance": 0,
+        "desc": "A burst of flash that will strike you.",
+        "lose_xp": 2,
+        "rarity": 0.5,
+        "types": ["electro"],
+        "evolve_poke": "",
+        "evolve_lvl": 30,
+        "initiative": 3,
+        "ico": [{
+            "txt": r"""
+    /
+   //
+  0/u/0
+    //
+    /""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
