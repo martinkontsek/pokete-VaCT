@@ -1473,6 +1473,30 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "Adrianos": {
+        "name": "Adrianos",
+        "hp": 100,
+        "atc": 100,
+        "defense": 50,
+        "attacks": ["meat_skewer", "pepple_fire", "super_sucker","dick_energy"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Adrianos like pokete with dick energy.",
+        "lose_xp": 4,
+        "rarity": 0.1,
+        "types": ["fire", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  ****************	
+* |   ( )    | *
+  |   | |    |
+( | (.) (.)  | )
+  |  _____   |
+****************""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
