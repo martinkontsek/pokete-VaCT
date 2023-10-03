@@ -1473,6 +1473,31 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "alastor": {
+        "name": "Alastor",
+        "hp": 96,
+        "atc": 11,
+        "defense": 13,
+        "attacks": ["fire_bite", "flame_throw", "wind_blow", "fire_ball"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Fire winged pokete.",
+        "lose_xp": 4,
+        "rarity": 0.1,
+        "types": ["fire", "flying"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""       __.oOo.__
+    /'(  _  )`\
+   / . \/^\/ . \
+  /  _)_`-'_(_  \
+ /.-~   ).(   ~-.\
+/'     /\_/\     `\
+       ^-V-^ """,
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
