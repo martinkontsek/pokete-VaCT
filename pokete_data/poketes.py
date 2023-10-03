@@ -1473,6 +1473,30 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "nichiji": {
+        "name": "Nichiji",
+        "hp": 20,
+        "atc": 2,
+        "defense": 7,
+        "attacks": ["cry", "snooze", "hiding"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Fairy like pokemon that spends everyday lazing around.",
+        "lose_xp": 4,
+        "rarity": 0.05,
+        "types": ["fairy"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""* /\____/\ *
+ / ô   ô  \ 
+/    ..    \
+\   www    /
+*\________/ *
+    ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
