@@ -1473,6 +1473,33 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "pichu": {
+        "name": "Pichu",
+        "hp": 15,
+        "atc": 20,
+        "defense": 5,
+        "attacks": ["shock"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Maly a elektricky.",
+        "lose_xp": 4,
+        "rarity": 0.1,
+        "types": ["electro"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  ^-^
+             (   )
+            (o   o)
+            (  .  )
+            (  ˘  )
+             (   )
+               V
+
+    ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
