@@ -1473,6 +1473,36 @@ W         W""",
     ''""",
             "esc": None}]
     },
+
+
+"alucard": {
+        "name": "Alucard",
+        "hp": 250,
+        "atc": 100,
+        "defense": 15,
+        "attacks": ["power_bite", "bite", "meat_skewer", "flying"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Dangerous flying pokete, hungry for blood.",
+        "lose_xp": 4,
+        "rarity": 0.1,
+        "types": ["normal", "flying"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""   =/\                 /\=
+    / \'._   (\_/)   _.'/ \
+   / .''._'--(o.o)--'_.''. \
+  /.' _/ |`'=/ " \='`| \_ `.\
+ /` .' `\;-,'\___/',-;/` '. '\
+/.-'       `\(-V-)/`       `-.\
+`            "   "            `
+    ''""",
+            "esc": None}]
+    },
+
+
 }
 
 if __name__ == "__main__":
