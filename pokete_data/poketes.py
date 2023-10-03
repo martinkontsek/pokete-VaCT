@@ -1473,6 +1473,30 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "JozkoVajda": {
+        "name": "JozkoVajda",
+        "hp": 255,
+        "atc": 80,
+        "defense": 10,
+        "attacks": ["cry", "toe_breaker", "snooze", "poison_bite"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Jozko Vajda will dominate you.",
+        "lose_xp": 4,
+        "rarity": 0.1,
+        "types": ["fire", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  /\/\/\/\
+ \______/
+  |O  O|
+  \\\///
+   \||/
+    **""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
