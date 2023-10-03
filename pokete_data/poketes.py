@@ -1473,6 +1473,30 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "hobo": {
+            "name": "Homeless guy high on crack",
+            "hp": 50,
+            "atc": 20,
+            "defense": 8,
+            "attacks": ["poison_bite", "brick_throw", "dick_energy", "special_smell"],
+            "pool": [],
+            "miss_chance": 0,
+            "desc": "Homeless who stinks of odd odor similar to rotten eggs, who's an addict who constantly abuses substance known as methamphetamine.",
+            "lose_xp": 4,
+            "rarity": 0.1,
+            "types": ["ground", "normal"],
+            "evolve_poke": "",
+            "evolve_lvl": 0,
+            "initiative": 5,
+            "ico": [{
+                "txt": r"""  ________
+     \	    /
+      |O  O|
+      \ oo /
+       \../
+        ''""",
+                "esc": None}]
+        },
 }
 
 if __name__ == "__main__":
