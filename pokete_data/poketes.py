@@ -1473,6 +1473,30 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "charmeleon": {
+        "name": "Charmeleon",
+        "hp": 58,
+        "atc": 64,
+        "defense": 58,
+        "attacks": ["fire_punch", "heat_wave", "flamethrower", "fire_blast"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Charmeleon is a bipedal, reptilian pokete",
+        "lose_xp": 3,
+        "rarity": 0.6,
+        "types": ["fire", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  __/\__
+  /	   \
+  |O  O|
+  \ ww /
+   \../
+    ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
