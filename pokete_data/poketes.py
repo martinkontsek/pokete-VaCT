@@ -1473,6 +1473,30 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "lolopopos": {
+        "name": "Lolopopos",
+        "hp": 80,
+        "atc": 8,
+        "defense": 3,
+        "attacks": ["tail_wipe", "politure", "poison_bite", "sand_throw"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Lilipop-based pokete with poison bite attack.",
+        "lose_xp": 4,
+        "rarity": 0.1,
+        "types": ["fire", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  XX____XX
+ \	YY  /
+  |O  O|
+  Y    Y
+   8888
+    ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
