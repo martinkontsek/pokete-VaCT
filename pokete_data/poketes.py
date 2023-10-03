@@ -48,6 +48,8 @@ pokes = {
  +-------+ """,
             "esc": None}],
     },
+
+    
         "cundovNemesis": {
         "name": "Cundov Nemesis",
         "hp": 100,
@@ -1472,6 +1474,25 @@ W         W""",
    \../
     ''""",
             "esc": None}]
+    },
+    "Denchik": {  # This is the Poketes simplified name/identifier without spaces and in lowercase, which is used to refer to the Pokete in the code
+        "name": "Denchik",  # This is the Pokete's pretty name
+        "hp": 100,  # The Pokete's max health points
+        "atc": 20,  # The Pokete's attack points that will added to the Pokete's level
+        "defense": 69,  # The Pokete's defense points that will added to the Pokete's level
+        "attacks": ["toss", "rupture", "megablock","flee"],  # The Pokete's starting attacks
+        "pool": ["Atomic bumba"],  # List of additional ungeneric attacks the Pokete can learn
+        "miss_chance": 20,  # The chance a Pokete will miss an attack, this is added to the attacks individual `miss_chance`
+        "desc": "Denchik - mega pokete",  # The Pokete's description
+        "lose_xp": 10,  # The amount of experience the player gets by killing the Pokete
+        "rarity": 5,  # Rarity
+        "types": ["antropomorfic", "not_normal"],  # The Pokete's types
+        "evolve_poke": "",  # The name/identifier of the Pokete, that this Pokete evolves to at a certain level
+        "evolve_lvl": 5,  # The level the Pokete evolves at
+        "initiative": 5,  # The Pokete's initiative points that will added to the Pokete's level, and determine what Pokete starts in a fight
+        "ico": [{  # A list of dictionaries containing a displayed string and a color; all those strings will be layered over each other and represent the Pokete in the fight
+            "txt": """ (0_-) """,
+            "esc": None}],
     },
 }
 
