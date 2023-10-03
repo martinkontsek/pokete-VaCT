@@ -1473,6 +1473,32 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "Juracina": {
+        "name": "Juracina",
+        "hp": 3,
+        "atc": 1,
+        "defense": 1,
+        "attacks": ["snooze", "cry", "bite", "scratch"],
+        "pool": [],
+        "miss_chance": 10,
+        "desc": "Spanok",
+        "lose_xp": 4,
+        "rarity": 0.1,
+        "types": ["fire", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""   |\__/|
+      /o=o '`.  !!!!!!!
+     { _o_ }  \!!!!!!!!!
+     / .H    . )!!!!!!!
+     '-'    '-' \!!!!!
+     .(     -(   )!!!
+    '---  .~_ _ _|!!
+   ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
