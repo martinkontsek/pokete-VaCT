@@ -1473,6 +1473,34 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "kunkadlo": {
+        "name": "Kunkadlo",
+        "hp": 100,
+        "atc": 10,
+        "defense": 10,
+        "attacks": ["tail_wipe", "poison_thorn", "dick_energy", "rock_smash"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Lietajuci zabijak.",
+        "lose_xp": 4,
+        "rarity": 0.1,
+        "types": ["fire", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  ──▀▀▀▀▀▀▀▀▀▀▀▄▄▀▀▀▀▀▀▀▀▀▀▀
+    ────────────█▀▀█
+    ───────────█▓▓▓▓█
+    ───────══▄▀█▓▓▓▓█▀▄══
+    ──▄▄▄▄▄▄▄█▒█▓▓▓▓█▒█▄▄▄▄▄▄▄
+    ──█▀▀▀▀█▀███▄▓▓▄███▀█▀▀▀▀█
+    ─▄█▄──▄█▄───▀██▀───▄█▄──▄█▄
+    ─█▒█──█▒█──────────█▒█──█▒█
+    ─▀▀▀──▀▀▀──────────▀▀▀──▀▀▀
+    ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
