@@ -1473,6 +1473,34 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "peto": {
+        "name": "Peťo",
+        "hp": 10,
+        "atc": 3,
+        "defense": 2,
+        "attacks": ["bite", "tackle", "brick_throw", "politrue"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A man name Peťo.",
+        "lose_xp": 4,
+        "rarity": 1,
+        "types": ["normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""       .-------.
+   .'          '.
+  /   O      O   \
+ :           `    :
+ |                | 
+ :    .------.    :
+  \  '        '  /
+   '.          .'
+     '-......-'""",
+            "esc": None}]
+    },
+    
 }
 
 if __name__ == "__main__":
