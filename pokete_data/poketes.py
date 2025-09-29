@@ -26,6 +26,30 @@ pokes = {
             "txt": """ """,
             "esc": None}],
     },
+        "slaipi": {
+        "name": "slaipi",
+        "hp": 75,
+        "atc": 1,
+        "defense": 6,
+        "attacks": ["tackle", "snooze"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A big heavy sleepy face",
+        "lose_xp": 3,
+        "rarity": 6,
+        "types": ["normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 3,
+        "initiative": 5,
+        "night_active": None,
+        "ico": [{
+            "txt": r""" ^----------^
+ \ -     - /
+ |  ~~~~~  |
+ --*     *-- 
+    \---/""",
+            "esc": []}],
+    },
     "steini": {
         "name": "Steini",
         "hp": 25,
