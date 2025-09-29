@@ -135,6 +135,33 @@ pokes = {
    VvVvV""",
             "esc": None}],
     },
+    "Vladoslavovic": {  
+        "name": "VladoslavovicPrvy", 
+        "hp": 70,  
+        "atc": 15, 
+        "defense": 10,  
+        "attacks": ["poison_thorn", "mega_arch", "super_sucker"], 
+        "pool": ["encouragement", "flying", "dick_energy" ],
+        "miss_chance": 0.5, 
+        "desc": "He sucks, but it's an advantage to have him on the team.",  
+        "lose_xp": 10,  
+        "rarity": 3,  
+        "types": ["poison", "normal"], 
+        "evolve_poke": "VladoslavovicBoss",  
+        "evolve_lvl": 5,  
+        "initiative": 5, 
+        "ico": [{  
+            "txt": """    .-"      "-.
+  /            \
+ |,  .-.  .-.  ,|
+ | )(_o/  \o_)( |
+ |/     /\     \|
+ (_     ^^     _)
+  \__|IIIIII|__/
+   | \IIIIII/ |
+   \          /
+    `--------` """,
+            "esc": []}],
     "lilstone": {
         "name": "Lilstone",
         "hp": 20,
