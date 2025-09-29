@@ -1473,6 +1473,29 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "swolly": {
+        "name": "Swolly",
+        "hp": 30,
+        "atc": 2,
+        "defense": 5,
+        "attacks": ["fart", "stepattack", "toe_breaker"],
+        "pool": [],
+        "miss_chance": 5,
+        "desc": "A tiny spider like Pokete.",
+        "lose_xp": 4,
+        "rarity": 1,
+        "types": ["ground", "stone"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 3,
+        "ico": [{
+            "txt": r"""  ______
+ /O    O\
+| ______ |
+ \______/""",
+            "esc": None}]
+    },
+
 }
 
 if __name__ == "__main__":

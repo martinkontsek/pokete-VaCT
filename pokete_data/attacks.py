@@ -325,6 +325,21 @@ attacks = {
         "is_generic": True,
         "ap": 20,
     },
+    "fart": {
+        "name": "FART!",
+        "factor": 5,
+        "action": None,
+        "world_action": "",
+        "move": ["attack"],
+        "miss_chance": 0.3,
+        "min_lvl": 0,
+        "desc": "Damages the enemy with an unpredictable hit out of the rectum.",
+        "types": ["ground"],
+        "effect": None,
+        "is_generic": True,
+        "ap": 10,
+    },
+
     "ground_hit": {
         "name": "Ground Hit",
         "factor": 3,
