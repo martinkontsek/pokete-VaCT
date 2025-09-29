@@ -1473,6 +1473,29 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "coolin": {
+        "name": "Coolin",
+        "hp": 30,
+        "atc": 20,
+        "defense": 1,
+        "attacks": ["cry", "chocer", "freeze", "sword_of_ice"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A frosty creature that chills everything around it with icy breath.",
+        "lose_xp": 3,
+        "rarity": 0.1,
+        "types": ["ice", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 2,
+        "ico": [{
+        "txt": r"""  .----.
+ | o  o |
+ |  --  |
+ '----' """,
+        "esc": ["cyan"]
+        }]
+    },
 }
 
 if __name__ == "__main__":
