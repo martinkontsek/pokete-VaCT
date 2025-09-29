@@ -1449,6 +1449,41 @@ w        w""",
 W         W""",
             "esc": None}]
     },
+    "Vajcomet": {
+        "name": "Vajcomet",
+        "hp": 10000,
+        "atc": 7,
+        "defense": 50,
+        "attacks": ["poison_bite", "bite", "webattack", "power_bite", "fire_bite", "bite", "power_bite", "fire_ball", "shock", "charging", "mega_arch", "tackle"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Dnagerous vajco like Pokete with strong vajcomet.",
+        "lose_xp": 50,
+        "rarity": 0.9,
+        "types": ["poison", "normal", "fire", "electro"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 50,
+        "ico": [{
+            "txt": r"""                                ████████                                  
+                              ██        ██                                
+                            ██▒▒▒▒        ██                              
+                          ██▒▒▒▒▒▒      ▒▒▒▒██                            
+                          ██▒▒▒▒▒▒      ▒▒▒▒██                            
+                        ██  ▒▒▒▒        ▒▒▒▒▒▒██                          
+                        ██                ▒▒▒▒██                          
+                      ██▒▒      ▒▒▒▒▒▒          ██                        
+                      ██      ▒▒▒▒▒▒▒▒▒▒        ██                        
+                      ██      ▒▒▒▒▒▒▒▒▒▒    ▒▒▒▒██                        
+                      ██▒▒▒▒  ▒▒▒▒▒▒▒▒▒▒  ▒▒▒▒▒▒██                        
+                        ██▒▒▒▒  ▒▒▒▒▒▒    ▒▒▒▒██                          
+                        ██▒▒▒▒            ▒▒▒▒██                          
+                          ██▒▒              ██                            
+                            ████        ████                              
+                                ████████                                  
+                                                                         """,
+            "esc": None}]
+    },
     "charizard": {
         "name": "Charizard",
         "hp": 30,
