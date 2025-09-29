@@ -1,0 +1,22 @@
+version = 1
+revision = 3
+requires-python = ">=3.13"
+
+[[package]]
+name = "pokete"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "scrap-engine" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "scrap-engine", specifier = ">=1.4.4" }]
+
+[[package]]
+name = "scrap-engine"
+version = "1.4.4"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/92/d0/d7296011b8dd9c499fb1a252ebb668d4082de1f3ee5042163669abc099c4/scrap_engine-1.4.4-py3-none-any.whl", hash = "sha256:f0364037baf0b64dc4de72a09ffe1792b638bfdfe571fa302c0d2d6d1c50519b", size = 26458, upload-time = "2025-05-12T22:14:24.448Z" },
+]
