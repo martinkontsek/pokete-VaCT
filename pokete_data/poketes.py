@@ -1473,6 +1473,31 @@ W         W""",
     ''""",
             "esc": None}]
     },
+
+    "lyrian": {
+        "name": "Lyrian",
+        "hp": 20,
+        "atc": 5,
+        "defense": 15,
+        "attacks": ["tackle", "cry", "brick_throw", "toe_breaker"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Defensive stony little guy.",
+        "lose_xp": 3,
+        "rarity": 0.4,
+        "types": ["stone", "ground"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  /-------\
+ | O   O |
+ |       |
+ | \___/ |
+ \-------/
+    ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
