@@ -1,4 +1,6 @@
-attacks = {
+from pokete.classes.asset_service.resources.base import AttackDict
+
+attacks: dict[str, AttackDict] = {
     # normal attacks
     "tackle": {
         "name": "Tackle",
@@ -62,13 +64,27 @@ attacks = {
         "action": "chocer",
         "world_action": "",
         "move": ["attack", "downgrade"],
-        "miss_chance": 0.2,
+        "miss_chance": 0.,
         "min_lvl": 0,
         "desc": "Chokes the enemy and makes it weaker.",
         "types": ["normal", "snake"],
         "effect": "paralyzation",
         "is_generic": True,
         "ap": 15,
+    },
+    "lick": {
+    "name": "lick",
+    "factor": 1,
+    "action": "lick",
+    "world_action": "",
+    "move": ["attack", "downgrade"],
+    "miss_chance": 0.15,
+    "min_lvl": 0,
+    "desc": "Licks with a long tongue to injure. May also paralyze.",
+    "types": ["undead", "normal"],
+    "effect": "paralyzation",
+    "is_generic": False,
+    "ap": 15,
     },
     "tail_wipe": {
         "name": "Tail Swipe",
@@ -367,7 +383,7 @@ attacks = {
         "is_generic": False,
         "ap": 15,
     },
-     "webattack": {
+    "webattack": {
         "name": "Web attack",
         "factor": 1,
         "action": None,
@@ -381,7 +397,6 @@ attacks = {
         "is_generic": False,
         "ap": 10,
     },
-
     # Fire attacks
     "fire_bite": {
         "name": "Fire Bite",
@@ -425,7 +440,6 @@ attacks = {
         "is_generic": True,
         "ap": 10,
     },
-
     "fire_ball": {
         "name": "Fire Ball",
         "factor": 4,
@@ -492,7 +506,7 @@ attacks = {
         "miss_chance": 0,
         "min_lvl": 0,
         "desc": "Casts a vicious and violent storm full of rain and hail, hitting the enemy in its weakest spots "
-                "and makes it want to die.",
+        "and makes it want to die.",
         "types": ["flying"],
         "effect": None,
         "is_generic": True,
@@ -964,6 +978,20 @@ attacks = {
         "effect": None,
         "is_generic": True,
         "ap": 30,
+    },
+    "sweet_smell": {
+        "name": "Sweet smell",
+        "factor": 0,
+        "action": None,
+        "world_action": "",
+        "move": ["smell", "downgrade"],
+        "miss_chance": 0,
+        "min_lvl": 0,
+        "desc": "Unleashes a sweet scent that's turning heads and minds alike.",
+        "types": ["plant"],
+        "effect": "confusion",
+        "is_generic": False,
+        "ap": 15,
     },
 }
 
