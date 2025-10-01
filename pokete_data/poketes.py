@@ -1473,6 +1473,29 @@ W         W""",
     ''""",
             "esc": None}]
     },
+
+    "Skibidi": {
+        "name": "Skibidi",
+        "hp": 1 000 000,
+        "atc": 2,
+        "defense": 500 000,
+        "attacks": ["toilet_splash", "empty_roll", "brown_stain"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A scary and dangerous toilet.",
+        "lose_xp": 2,
+        "rarity": 100,
+        "types": ["electro"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 2,
+        "ico": [{
+            "txt": r"""    (()
+   (()))
+     H
+     H""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
