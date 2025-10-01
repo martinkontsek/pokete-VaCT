@@ -1473,6 +1473,36 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "noctyra": {
+            "name": "Noctyra",
+            "hp": 40,
+            "atc": 12,
+            "defense": 6,
+            "attacks": ["shadow_claw", "dark_wing", "screech", "void_beam"],
+            "pool": [],
+            "miss_chance": 0.05,
+            "desc": "A mysterious nocturnal bird that commands the power of shadows.",
+            "lose_xp": 5,
+            "rarity": 0.05,
+            "types": ["dark", "flying"],
+            "evolve_poke": "",
+            "evolve_lvl": 0,
+            "initiative": 8,
+            "ico": [{
+                "txt": r"""        /\                 /\
+           /  \  /\____/\  /  \
+          /    \/  o  o  \/    \
+         /      \   --   /      \
+        /        \ \__/ /        \
+       /          \____/          \
+       \          /    \          /
+        \________/      \________/
+                (  /\  )
+                 \/  \/
+    """,
+                "esc": None}]
+        },
+
 }
 
 if __name__ == "__main__":
