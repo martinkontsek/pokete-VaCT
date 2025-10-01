@@ -1473,6 +1473,32 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "sylveira": {
+        "name": "Sylveira",
+        "hp": 65,
+        "atc": 50,
+        "defense": 60,
+        "attacks": ["Ribbon Lash", "Gleam Burst", "Charm Bind"],
+        "pool": ["Heel Whisper", "Dazzle Step", "Moonveil"],
+        "miss_chance": 5,
+        "desc": "A mystical ribboned creature that enchants foes with its glowing patterns.",
+        "lose_xp": 10,
+        "rarity": 50,
+        "types": ["fairy"],
+        "evolve_poke": "",
+        "evolve_lvl": 4,
+        "initiative": 30,
+        "ico": [{
+            "txt": 
+"""  ,-._,-.
+ / \_/ \
+(  o o  )
+  > ^ <
+ /     \
+/  ___  \
+`------'""",
+            "esc": None}],
+    }
 }
 
 if __name__ == "__main__":
