@@ -1473,6 +1473,31 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "reaper": {
+    "name": "reaper",
+    "hp": 25,
+    "atc": 50,
+    "defense": 10,
+    "attacks": ["tackle", "mind_blow" , "bite", "webattack", "power_bite"],
+    "pool": [],
+    "miss_chance": 0,
+    "desc": "Tiny reaper-like Pokete with glowing eyes and a dark aura.",
+    "lose_xp": 4,
+    "rarity": 0.5,
+    "types": ["undead", "normal"],
+    "evolve_poke": "",
+    "evolve_lvl": 0,
+    "initiative": 5,
+    "ico": [{
+        "txt": r"""  /^ ^\
+ (o x o)
+ /  V  \
+ \ === /
+  || ||
+  VV VV""",
+        "esc": None}]
+},
+
 }
 
 if __name__ == "__main__":
