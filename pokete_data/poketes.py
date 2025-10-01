@@ -365,6 +365,31 @@ it will try to peck out your eyes.",
      ||""",
             "esc": None}]
     },
+
+    "chungus": {
+        "name": "Chungus",
+        "hp": 100,
+        "atc": 28,
+        "defense": 30,
+        "attacks": ["bite", "power_bite", "brooding"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A very aggressive fat Pokete that lives near swamp; \
+it will try to eat you.",
+        "rarity": 4,
+        "lose_xp": 2,
+        "types": ["stone", "poison", "ground"],
+        "evolve_poke": "",
+        "evolve_lvl": 3,
+        "initiative": 4,
+        "ico": [{
+            "txt": r"""   !
+  >´)
+    \www'
+     ||""",
+            "esc": None}]
+    },
+
     "karpi": {
         "name": "Karpi",
         "hp": 15,
