@@ -157,6 +157,30 @@ pokes = {
    ‾‾‾‾‾""",
             "esc": None}],
     },
+"corgi": {
+        "name": "Corgi",
+        "hp": 30,
+        "atc": 3,
+        "defense": 4,
+        "attacks": ["tackle", "punch", "kick"],
+        "pool": [],
+        "miss_chance": 1,
+        "desc": "A blue goblin with monstrous muscles.",
+        "lose_xp": 2,
+        "rarity": 1,
+        "types": ["ground"],
+        "evolve_poke": "corgon",
+        "evolve_lvl": 30,
+        "initiative": 3,
+        "ico": [{
+            "txt": r"""
+  .__.__.
+ ()__)__)}´
+  '  '  '
+ """,
+            "esc": None}
+        ]
+    },
     "rosi": {
         "name": "Rosi",
         "hp": 20,
