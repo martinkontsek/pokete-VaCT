@@ -1473,6 +1473,28 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "Krrrrrrrrrrr": {
+        "name": "KRRRRRRRRRRRRRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa",
+        "hp": 1,
+        "atc": 15000,
+        "defense": 4,
+        "attacks": ["tackle", "politure", "stone_crush", "brick_throw"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A squared stone that can be readily found just lying around.",
+        "lose_xp": 3,
+        "rarity": 1,
+        "types": ["stone", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r""" +-------+
+ | o   o |
+ |  www  |
+ +-------+ """,
+            "esc": None}],
+    },
 }
 
 if __name__ == "__main__":
