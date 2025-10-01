@@ -1448,6 +1448,30 @@ w        w""",
 //  '''  \\
 W         W""",
             "esc": None}]
+    },"wolfiro": {
+        "name": "Kuriplech",
+        "hp": 25,
+        "atc": 10,
+        "defense": 8,
+        "attacks": ["tackle", "fire_bite", "ash_throw", "fire_ball"],
+        "pool": ["cry", "bite", "power_bite"],
+        "miss_chance": 0,
+        "desc": "A fiery wolf from hell on steroids.",
+        "lose_xp": 4,
+        "rarity": 1,
+        "types": ["fire", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""   \^-^/
+   {   }
+   >{.}<""",
+            "esc": None}, {
+            "txt": r"""
+    * *
+        """,
+            "esc": ["thicc", "red"]}]
     },
     "charizard": {
         "name": "Charizard",
