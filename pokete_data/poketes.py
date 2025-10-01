@@ -7,6 +7,28 @@
   Hornita was inspired and partly designed by Pia <pialandrath@gmail.com>"""
 
 pokes = {
+    "karpi-fiser": {
+        "name": "Karpi-fiser",
+        "hp": 15,
+        "atc": 0,
+        "defense": 0,
+        "attacks": ["tackle"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A harmless water Pokete that can be found everywhere.",
+        "lose_xp": 1,
+        "rarity": 3,
+        "types": ["water", "normal"],
+        "evolve_poke": "kartmen",
+        "evolve_lvl": 30,
+        "initiative": 0,
+        "ico": [{
+            "txt": r"""
+
+  <°)})))>-<
+           """,
+            "esc": None}]
+    },
     "__fallback__": {
         "name": "",
         "hp": 20,
