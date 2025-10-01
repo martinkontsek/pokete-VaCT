@@ -7,23 +7,31 @@
   Hornita was inspired and partly designed by Pia <pialandrath@gmail.com>"""
 
 pokes = {
-    "__fallback__": {
-        "name": "",
-        "hp": 20,
-        "atc": 0,
-        "defense": 0,
-        "attacks": [],
-        "pool": [],
-        "miss_chance": 0,
+    "filipklein": {
+        "name": "FilipKlein",
+        "hp": 250,
+        "atc": 15,
+        "defense": 12,
+        "attacks": ["dimension_rift", "meteor_crash", "soul_drain", "brick_throw"],
+        "pool": ["apocalypse_roar", "void_chain"],
+        "miss_chance": 5,
         "desc": "",
-        "lose_xp": 0,
-        "rarity": 0,
-        "types": ["normal"],
+        "lose_xp": 10,
+        "rarity": 5,
+        "types": ["dark", "stone", "chaos"],
         "evolve_poke": "",
         "evolve_lvl": 0,
         "initiative": 0,
         "ico": [{
-            "txt": """ """,
+        "txt": r"""
+           █████████
+         ███       ███
+        ██   ◉   ◉   ██
+        ██     ▄     ██
+         ██   ---   ██
+          ███     ███
+            ███████
+            """,
             "esc": None}],
     },
     "steini": {
