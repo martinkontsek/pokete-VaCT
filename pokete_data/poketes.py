@@ -1449,6 +1449,29 @@ w        w""",
 W         W""",
             "esc": None}]
     },
+"pockete": {
+    "name": "Pockete Mk.I",
+    "hp": 22,
+    "atc": 4,
+    "defense": 3,
+    "attacks": ["tackle", "shock", "charging", "mega_arch"],
+    "pool": [],
+    "miss_chance": 0.05,
+    "desc": "A palm-sized helper bot that stores tools in its chassis and zaps foes with a pocket arc.",
+    "lose_xp": 3,
+    "rarity": 0.6,
+    "types": ["electro", "normal"],
+    "evolve_poke": "",
+    "evolve_lvl": 0,
+    "initiative": 6,
+    "ico": [{
+        "txt": r"""  _[]_
+ | o o |
+ | [_] |
+  \___/""",
+        "esc": None}],
+},
+
     "charizard": {
         "name": "Charizard",
         "hp": 30,
