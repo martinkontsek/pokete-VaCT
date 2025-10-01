@@ -48,6 +48,28 @@ pokes = {
  +-------+ """,
             "esc": None}],
     },
+    "Dying_Light_Screamer": {
+        "name": "Screamer",
+        "hp": 5,
+        "atc": 40,
+        "defense": 1,
+        "attacks": ["cry", "poison_bite"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Zombified child, inflicting psychical damage through his screaming attracting other zombies in process.",
+        "lose_xp": 3,
+        "rarity": 2,
+        "types": ["undead"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 15,
+        "ico": [{
+            "txt": r""" +-------+
+ | o   o |
+ |  www  |
+ +-------+ """,
+            "esc": None}],
+    },
         "cundovNemesis": {
         "name": "Cundov Nemesis",
         "hp": 100,
