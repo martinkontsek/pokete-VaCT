@@ -1473,6 +1473,31 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "demižon": {
+        "name": "Demižon",
+        "hp": 40,
+        "atc": 3,
+        "defense": 8,
+        "attacks": ["tackle", "earch_quake", "hiding", "ground_hit"],
+        "pool": ["politure", "power_roll", "bark_hardening"],
+        "miss_chance": 0,
+        "desc": "A massive earth guardian with incredible defensive capabilities. Its thick hide can withstand powerful attacks while it slowly overwhelms enemies.",
+        "lose_xp": 6,
+        "rarity": 0.3,
+        "types": ["ground", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 1,
+        "ico": [{
+            "txt": r"""  ████████
+ ███    ███
+███  ●●  ███
+███  ▄▄  ███
+ ███▄▄▄▄███
+  ████████
+    ████""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
