@@ -26,6 +26,34 @@ pokes = {
             "txt": """ """,
             "esc": None}],
     },
+"cardboardknight": {
+        "name": "Cardboard Knight",
+        "hp": 20,
+        "atc": 1,
+        "defense": 3,
+        "attacks": ["tackle", "bite"],
+        "pool": [],
+        "miss_chance": 0.1,
+        "desc": "Wandering poor",
+        "lose_xp": 2,
+        "rarity": 1,
+        "types": ["normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 9,
+        "ico": [{
+            "txt": r"""
+      __
+    /____\ 
+    | ++|
+    |___|
+     /||\
+    /_||_\
+     / \ 
+    /___\
+            """,
+            "esc": None}],
+    
     "steini": {
         "name": "Steini",
         "hp": 25,
