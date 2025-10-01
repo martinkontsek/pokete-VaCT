@@ -32,7 +32,7 @@ pokes = {
         "atc": 2,
         "defense": 4,
         "attacks": ["tackle", "politure", "stone_crush", "brick_throw"],
-        "pool": [],
+        "pool": [], 
         "miss_chance": 0,
         "desc": "A squared stone that can be readily found just lying around.",
         "lose_xp": 3,
@@ -1473,6 +1473,35 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "blazorn": {
+    "name": "Blazorn",
+    "hp": 45,
+    "atc": 16,
+    "defense": 10,
+    "attacks": ["flame_horn", "fire_charge", "inferno_strike", "ember_burst"],
+    "pool": [],
+    "miss_chance": 0,
+    "desc": "A fiery beast with blazing horns that charges with unstoppable force.",
+    "lose_xp": 5,
+    "rarity": 0.08,
+    "types": ["Fire", "Normal"],
+    "evolve_poke": "",
+    "evolve_lvl": 0,
+    "initiative": 6,
+    "ico": [{
+        "txt": r"""
+  ()       ()
+   \\     //
+    \\ ^ //
+     (o_o)
+  ---/   \---
+    /     \
+   (       )
+    \_____/
+        """
+    }],
+    "esc": none
+},
 }
 
 if __name__ == "__main__":
