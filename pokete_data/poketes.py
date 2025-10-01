@@ -1231,6 +1231,34 @@ that will confuse the shit out of you.",
     "esc": ["thicc", "blue"]}
         ]
     },
+    "andibandi": {
+        "name": "AndiBandi",
+        "hp": 20,
+        "atc": 10,
+        "defense": 2,
+        "attacks": ["schmetter", "wing_hit"],
+        "pool": [],
+        "miss_chance": 0.1,
+        "desc": "A dark butterfly that will schmetter you away.",
+        "lose_xp": 4,
+        "rarity": 1,
+        "night_active": True,
+        "types": ["flying", "undead"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 4,
+        "ico": [{
+            "txt": r"""  __`o´__
+  \_\|/_/
+  /_/'\_\ """,
+            "esc": None}, {
+            "txt": r""" .       .
+
+
+ ´       `""",
+    "esc": ["thicc", "blue"]}
+        ]
+    },
     "lil_nut": {
         "name": "Lil Nut",
         "hp": 20,
