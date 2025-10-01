@@ -26,6 +26,29 @@ pokes = {
             "txt": """ """,
             "esc": None}],
     },
+    "vorkito": {
+        "name": "Vorkito",
+        "hp": 24,
+        "atc": 2,
+        "defense": 1,
+        "attacks": ["cry", "poison_bite"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A dangerous gust of air and speech.",
+        "lose_xp": 1,
+        "rarity": 4,
+        "types": ["poison"],
+        "evolve_poke": "metayap",
+        "evolve_lvl": 30,
+        "initiative": 0,
+        "ico": [{
+            "txt": r"""
+    ~~~>>>        
+ ~~~>>>~~~>>>
+    ~>>>
+           """,
+            "esc": None}]
+    },
     "steini": {
         "name": "Steini",
         "hp": 25,
