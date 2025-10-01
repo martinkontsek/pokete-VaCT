@@ -1473,6 +1473,34 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    
+    
+    "Sandbol": {
+        "name": "Sandbol",
+        "hp": 25,
+        "atc": 4,
+        "defense": 5,
+        "attacks": ["bubble_gun", "earch_quake"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A fish-like water pokete that hides under sand in shallow waters",
+        "lose_xp": 2,
+        "rarity": 2,
+        "types": ["water", "ground"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 3,
+        "ico": [{
+            "txt": r"""
+
+            /<
+     /0|░|░|><
+    <░|░|░|░><
+     \0|░|░|><
+            \<
+           """,
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
