@@ -1473,6 +1473,38 @@ W         W""",
     ''""",
             "esc": None}]
     },
+
+"metallic_sfp": {
+        "name": "metallic_sfp",
+        "hp": 69,
+        "atc": 69,
+        "defense": 69,
+        "attacks": ["fire_bite", "bite", "power_bite", "fire_ball"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Dragon like pokete with flaming attacks.",
+        "lose_xp": 69,
+        "rarity": 0.1,
+        "types": ["fire", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""            ______
+      .-´      ´-.
+     /  _   __    \
+    |  /_\ |__|    |
+   /| (_)   _   () |\
+  | |    .-' '-.   | |
+  \_|   | (_) |   |_/
+     \   \___/   /
+     /`-._____,-'\
+    /     | |     \
+   (  ___/   \___  )
+    \_/         \_/
+    ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
