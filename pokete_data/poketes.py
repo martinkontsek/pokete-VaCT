@@ -518,6 +518,31 @@ WW\/o o\/WW
  \_____/""",
             "esc": None}]
     },
+    "Umbrekyu": {
+        "name": "Umbrekyu",
+        "hp": 41,
+        "atc": 23,
+        "defense": 2,
+        "attacks": ["less_than"],
+        "pool": ["closer"],
+        "miss_chance": 0,
+        "desc": "A abomination of umbreon and mimikyu, not great not terrible",
+        "lose_xp": 1,
+        "rarity": 0,1,
+        "types": ["horny", "musically"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 2,
+        "ico": [{
+            "txt": r"""   /\_/\
+ ( o.o )
+  > ^ <
+  /   \
+ /_____\
+  \   /
+   \ / """,
+            "esc": None}],
+    },
     "owol": {
         "name": "Owol",
         "hp": 20,
