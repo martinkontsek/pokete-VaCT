@@ -1473,6 +1473,25 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "skodamb120": {
+        "name": "Skoda MB 120",
+        "hp": 1000000,
+        "atc": 1000000,
+        "defense" 1000000: ,
+        "attacks": ["rew_engine", "leak_oil", "start_engine", "explode_engine"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Best car to ever exist.",
+        "lose_xp": 4,
+        "rarity": 0.000001,
+        "types": ["stone", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""🚗""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
