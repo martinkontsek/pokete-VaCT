@@ -1475,5 +1475,33 @@ W         W""",
     },
 }
 
+"flamio": {
+    "name": "Flamio",
+    "hp": 20,
+    "atc": 5,
+    "defense": 2,
+    "attacks": ["tackle", "fire_bite", "fire_ball"],
+    "pool": [],
+    "miss_chance": 0.1,
+    "desc": "A small fiery Pokete that loves warm places.",
+    "lose_xp": 3,
+    "rarity": 1,
+    "types": ["fire", "normal"],
+    "evolve_poke": "",
+    "evolve_lvl": 0,
+    "initiative": 5,
+    "ico": [{
+        "txt": r"""
+   /\
+  /oo\
+  \__/ 
+   ||
+""",
+        "esc": None
+    }],
+},
+
+
+
 if __name__ == "__main__":
     print("\033[31;1mDo not execute this!\033[0m")
