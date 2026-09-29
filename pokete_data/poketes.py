@@ -1473,6 +1473,30 @@ W         W""",
     ''""",
             "esc": None}]
     },
+
+    "pixnel": {
+        "name": "Pixnel",
+        "hp": 18,
+        "atc": 6,
+        "defense": 2,
+        "attacks": ["bite", "bite", "power_bite", "fire_ball"],
+        "pool": [],
+        "miss_chance": 0.1,
+        "desc": "Taking pixels from weaker.",
+        "lose_xp": 2,
+        "rarity": 1,
+        "types": ["electro"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  \	      /
+  \ *  * /
+   \  b /
+    \__/
+    ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
