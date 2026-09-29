@@ -1473,6 +1473,29 @@ W         W""",
     ''""",
             "esc": None}]
     },
+
+    "pichu": {
+        "name": "Pichu",
+        "hp": 20,
+        "atc": 40,
+        "defense": 15,
+        "attacks": ["lightning rod"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Tiny Mouse Pokémon",
+        "lose_xp": 3,
+        "rarity": 1,
+        "types": ["electric"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  /\___/\
+ \	  /
+ (. .)
+  | |""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
