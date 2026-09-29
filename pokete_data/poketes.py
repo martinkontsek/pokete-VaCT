@@ -1473,6 +1473,36 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "janosik": {
+    "name": "Janosik",
+    "hp": 34,
+    "atc": 11,
+    "defense": 6,
+    "attacks": ["fire_bite", "bite", "fire_ball", "power_bite"],
+    "pool": [],
+    "miss_chance": 0.05,
+    "desc": "A legendary Slovak mountain pokete known for strength, courage and rebellion.",
+    "lose_xp": 5,
+    "rarity": 0.08,
+    "types": ["fire", "normal"],
+    "evolve_poke": "",
+    "evolve_lvl": 0,
+    "initiative": 6,
+    "ico": [{
+        "txt": r"""   _____
+    /     \
+    /  ^ ^  \
+    |   ---   |
+    |  /|||\\  |
+    | / ||| \ |
+    \__|||__/
+        / \
+    /___\''"""
+            ,
+            "esc": None
+        }]
+    },
+    
 }
 
 if __name__ == "__main__":
