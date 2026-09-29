@@ -1473,6 +1473,27 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "qope": {
+        "name": "Qope",
+        "hp": 10,
+        "atc": 5,
+        "defense": 3,
+        "attacks": ["bite", "power_bit"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A cool flying thing.",
+        "lose_xp": 2,
+        "rarity": 1.0,
+        "types": ["flying", "flying"],
+        "evolve_poke": "qope",
+        "evolve_lvl": 20,
+        "initiative": 6,
+        "ico": [{
+            "txt": r"""    ___
+WW\/* *\/WW
+   \v-v/""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
