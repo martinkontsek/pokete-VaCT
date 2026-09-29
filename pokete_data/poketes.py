@@ -1473,6 +1473,28 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "mareknap": {
+        "name": "Nibbabob",
+        "hp": 9000,
+        "atc": 800,
+        "defense": 700,
+        "attacks": ["biden blast",],
+        "pool": ["folk"],
+        "miss_chance": 0,
+        "desc": "nibbabob",
+        "lose_xp": 3,
+        "rarity": 0.1,
+        "types": ["bob", "bob"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r""" +-------+
+ | o   o |
+ |  www  |
+ +-------+ """,
+            "esc": None}],
+    },
 }
 
 if __name__ == "__main__":
