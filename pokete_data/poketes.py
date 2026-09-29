@@ -48,6 +48,29 @@ pokes = {
  +-------+ """,
             "esc": None}],
     },
+
+        "zavodskyOndrej": {
+        "name": "zavodsky Ondrej",
+        "hp": 90,
+        "atc": 9,
+        "defense": 0,
+        "attacks": ["clone"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "imaginary friend of a fallen hero.",
+        "lose_xp": 3,
+        "rarity": 4,
+        "types": ["stone", "electric"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r""" +-------+
+ |  o - o |
+ |  --O--  |
+ +-------+ """,
+            "esc": None}],
+    },
         "cundovNemesis": {
         "name": "Cundov Nemesis",
         "hp": 100,
