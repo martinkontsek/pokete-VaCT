@@ -26,6 +26,29 @@ pokes = {
             "txt": """ """,
             "esc": None}],
     },
+    "reteP": {
+        "name": "reteP",
+        "hp": 30,
+        "atc": 4,
+        "defense": 1,
+        "attacks": ["evil_tackle", "evil_stomp", "evil_chunk", "evil_brick_throw"],
+        "pool": [],
+        "miss_chance": 1,
+        "desc": "I am reteP, and I am EVIL",
+        "lose_xp": 3,
+        "rarity": 2,
+        "types": ["evil", "moreEvil"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r""" +-------+
+ | o   > |
+ |  wvw  |
+ +-------+ """,
+            "esc": None}],
+    },
+
     "steini": {
         "name": "Steini",
         "hp": 25,
