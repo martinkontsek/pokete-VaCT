@@ -1473,6 +1473,30 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "rayquaza": {
+            "name": "Rayquaza",
+            "hp": 100,
+            "atc": 50,
+            "defense": 25,
+            "attacks": ["meteor", "bite", "star_strike", "knull_wave"],
+            "pool": [],
+            "miss_chance": 0,
+            "desc": "Lizzard like pokete with deadly attacks.",
+            "lose_xp": 4,
+            "rarity": 0.001,
+            "types": ["flying", "undead"],
+            "evolve_poke": "",
+            "evolve_lvl": 0,
+            "initiative": 5,
+            "ico": [{
+                "txt": r"""  /\____/\
+                            <	     >
+                              |X  X|
+                              \    /
+                               \../
+        ''""",
+                "esc": None}]
+        },
 }
 
 if __name__ == "__main__":
