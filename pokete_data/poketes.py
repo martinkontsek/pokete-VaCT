@@ -1473,6 +1473,27 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "testion": {
+        "name": "testion",
+        "hp": 67,
+        "atc": 12,
+        "defense": 8,
+        "attacks": ["test", "segmentation_fault", "minor_bug_fix", "small_change"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "software tester, but a pokemon",
+        "lose_xp": 4,
+        "rarity": 0.6,
+        "types": ["dark", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 2,
+        "initiative": 9,
+        "ico": [{
+            "txt": r"""  ^ ^
+---""",
+            "esc": None}]
+    },
+
 }
 
 if __name__ == "__main__":
