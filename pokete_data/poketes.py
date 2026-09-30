@@ -1473,6 +1473,28 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "chlastovicka": {
+        "name": "chlastovicka",
+        "hp": 22,
+        "atc": 5,
+        "defense": 3,
+        "attacks": ["tackle", "bubble_gun", "wet_slap", "rain_dance"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "pokete which love to drink beer",
+        "lose_xp": 3,
+        "rarity": 0.8,
+        "types": ["water", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 4,
+        "ico": [{
+            "txt": r"""  (o)_(o)
+ /  ---  \
+(  (   )  )
+ ^^     ^^""",
+            "esc": ["lightblue"]}]
+    },
 }
 
 if __name__ == "__main__":
