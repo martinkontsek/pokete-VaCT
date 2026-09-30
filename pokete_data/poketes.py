@@ -26,6 +26,28 @@ pokes = {
             "txt": """ """,
             "esc": None}],
     },
+    "Jeff": {
+        "name": "Jeff",
+        "hp":200,
+        "atc":1,
+        "defense":8,
+        "attacks": ["smash", "beg_for_forgivness"],
+        "pool":[],
+        "miss_chance":0,
+        "desc": "Just a silly guy",
+        "lose_xp": 3,
+        "rarity": 2,
+        "types": ["normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r""" +-------+
+ | o   o |
+ | \___/ |
+ +-------+ """,
+            "esc": None}],
+    },
     "steini": {
         "name": "Steini",
         "hp": 25,
