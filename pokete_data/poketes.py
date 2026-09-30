@@ -1473,7 +1473,35 @@ W         W""",
     ''""",
             "esc": None}]
     },
-}
+    "sparki": {
+        "name": "Sparki",
+        "hp": 20,
+        "atc": 4,
+        "defense": 1,
+        "attacks": ["shock", "charging", "tackle"],
+        "pool": ["mega_arch"],
+        "miss_chance": 0,
+        "desc": "A tiny static-charged mouse that leaves small spark trails everywhere it goes.",
+        "lose_xp": 2,
+        "rarity": 1.1,
+        "types": ["electro", "normal"],
+        "evolve_poke": "volmouse",
+        "evolve_lvl": 22,
+        "initiative": 6,
+        "ico": [{
+            "txt": r"""  /|___|\
+  ( o.o )
+   z\_/z""",
+            "esc": None
+        }, {
+            "txt": r"""
+
+   *   *""",
+            "esc": ["yellow"]
+        }],
+    }
+},
+
 
 if __name__ == "__main__":
     print("\033[31;1mDo not execute this!\033[0m")
