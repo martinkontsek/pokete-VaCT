@@ -1449,6 +1449,29 @@ w        w""",
 W         W""",
             "esc": None}]
     },
+    "weaver": {  # This is the Poketes simplified name/identifier without spaces and in lowercase, which is used to refer to the Pokete in the code
+        "name": "weaver",  # This is the Pokete's pretty name
+        "hp": 30,  # The Pokete's max health points
+        "atc": 4,  # The Pokete's attack points that will added to the Pokete's level
+        "defense": 6,  # The Pokete's defense points that will added to the Pokete's level
+        "attacks": ["tackle", "politure", "brick_throw"],  # The Pokete's starting attacks
+        "pool": [],  # List of additional ungeneric attacks the Pokete can learn
+        "miss_chance": 0,  # The chance a Pokete will miss an attack, this is added to the attacks individual `miss_chance`
+        "desc": "An acient nightmare-fuel weaver.",  # The Pokete's description
+        "lose_xp": 4,  # The amount of experience the player gets by killing the Pokete
+        "rarity": 0.5,  # Rarity
+        "types": ["undead", "ground"],  # The Pokete's types
+        "evolve_poke": "",  # The name/identifier of the Pokete, that this Pokete evolves to at a certain level
+        "evolve_lvl": 0,  # The level the Pokete evolves at
+        "initiative": 5,  # The Pokete's initiative points that will added to the Pokete's level, and determine what Pokete starts in a fight
+        "ico": [{  # A list of dictionaries containing a displayed string and a color; all those strings will be layered over each other and represent the Pokete in the fight
+            "txt": """ +-------+
+    |  ^   ^  |
+   |  (‾‾‾)  |
+   |   ===   |
+   +---------+  """,
+            "esc": None}],
+    },
     "charizard": {
         "name": "Charizard",
         "hp": 30,
