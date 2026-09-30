@@ -26,6 +26,28 @@ pokes = {
             "txt": """ """,
             "esc": None}],
     },
+    "benjamincollu": {
+        "name": "BenjaminCollu",
+        "hp": 30,
+        "atc": 3,
+        "defense": 2,
+        "attacks": ["tackle", "stone_crush", "brick_throw"],
+        "pool": ["supercow_power", "meat_skewer"],
+        "miss_chance": 0,
+        "desc": "Pokete studenta Benjamin Collu",
+        "lose_xp": 3,
+        "rarity": 2,
+        "types": ["fire", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  +-------+
+  | O   O |
+ -| -___- |-
+  +-------+ """,
+            "esc": None}],
+    },
     "steini": {
         "name": "Steini",
         "hp": 25,
