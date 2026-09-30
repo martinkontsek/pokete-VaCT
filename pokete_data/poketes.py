@@ -48,6 +48,28 @@ pokes = {
  +-------+ """,
             "esc": None}],
     },
+    "guargo": {
+        "name": "Guargo",
+        "hp": 150,
+        "atc": 3,
+        "defense": 10,
+        "attacks": ["tackle", "politure", "stone_crush", "brick_throw"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A squared stone that can be readily found just lying around.",
+        "lose_xp": 3,
+        "rarity": 1,
+        "types": ["stone", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r""" +-------+
+ | \^ ^/ |
+ |  o_o  |
+ +-------+ """,
+            "esc": None}],
+    },
         "cundovNemesis": {
         "name": "Cundov Nemesis",
         "hp": 100,
