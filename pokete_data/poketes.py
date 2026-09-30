@@ -48,7 +48,29 @@ pokes = {
  +-------+ """,
             "esc": None}],
     },
-        "cundovNemesis": {
+    "kejmar": {
+        "name": "Kejmar",
+        "hp": 35,
+        "atc": 10,
+        "defense": 10,
+        "attacks": ["tackle", "politure", "brick_throw"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Pokete Kejmar",
+        "lose_xp": 3,
+        "rarity": 1,
+        "types": ["stone", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r""" +-------+
+ | o   o |
+ |  ccc  |
+ *-------* """,
+            "esc": None}],
+    },
+        "cundovNemesis": {s
         "name": "Cundov Nemesis",
         "hp": 100,
         "atc": 5,
