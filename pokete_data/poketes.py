@@ -26,6 +26,35 @@ pokes = {
             "txt": """ """,
             "esc": None}],
     },
+    "robotto": {
+            "name": "Steini",
+            "hp": 23,
+            "atc": 2,
+            "defense": 4,
+            "attacks": ["bite", "bit", "megaBite", "GiGaBite"],
+            "pool": [],
+            "miss_chance": 0,
+            "desc": "A squared stone that can be readily found just lying around.",
+            "lose_xp": 3,
+            "rarity": 1,
+            "types": ["stone", "normal"],
+            "evolve_poke": "",
+            "evolve_lvl": 0,
+            "initiative": 5,
+            "ico": [{
+                "txt": r""" │                 │
+│    XXXXXXXXX    │
+│ XXX         XXX │
+╚X   OO      OO  X╝
+X    OO      OO   X
+X                 X
+X    VV  VV  VV   X
+╔X     VV  VV    X╗
+│ XXX         XXX │
+│    XXXXXXXXX    │
+│                 │ """,
+                "esc": None}],
+        },
     "steini": {
         "name": "Steini",
         "hp": 25,
