@@ -1473,6 +1473,27 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "Cubey": {
+        "name": "Cubey",
+        "hp": 15,
+        "atc": 1,
+        "defense": 5,
+        "attacks": ["rock_smash", "ground_hit", "toe_breaker"],
+        "pool": [],
+        "miss_chance": 0.1,
+        "desc": "A small harmless looking cube like.",
+        "lose_xp": 3,
+        "rarity": 1,
+        "types": ["ground", "stone"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 4,
+        "ico": [{
+            "txt": r""" /====\\
+ | <3 |
+ |====|""",
+            "esc": None}]
+    }
 }
 
 if __name__ == "__main__":
