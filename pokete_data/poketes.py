@@ -1473,6 +1473,31 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "GIGGADESTRUCTOR": {
+            "name": "GIGGADESTRUCTOR",
+            "hp": 90,
+            "atc": 90,
+            "defense": 95,
+            "attacks": ["mind_blow", "dick_energy", "meat_skewer", "fire_ball"],
+            "pool": [],
+            "miss_chance": 0,
+            "desc": "ULTIMATE MACHINE OF DEATH.",
+            "lose_xp": 4,
+            "rarity": 0.1,
+            "types": ["fire", "normal", "undead"],
+            "evolve_poke": "",
+            "evolve_lvl": 0,
+            "initiative": 5,
+            "ico": [{
+                "txt": r"""   _____
+  /     \
+ | .   . |
+ |   >   |
+ |  ___  |
+  \_____/
+    ''""",
+                "esc": None}]
+        },
 }
 
 if __name__ == "__main__":
