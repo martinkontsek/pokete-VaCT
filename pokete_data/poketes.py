@@ -1473,6 +1473,28 @@ W         W""",
     ''""",
             "esc": None}]
     },
+            "bounik": {
+        "name": "Bounik",
+        "hp": 25,
+        "atc": 4,
+        "defense": 3,
+        "attacks": ["tackle"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A mysterious Pokete created by Boun4ik3.",
+        "lose_xp": 3,
+        "rarity": 1,
+        "types": ["normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r""" /\_/\
+( o.o )
+ > ^ <""",
+            "esc": None}]
+    },
+
 }
 
 if __name__ == "__main__":
