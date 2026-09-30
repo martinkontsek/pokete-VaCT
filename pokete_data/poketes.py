@@ -26,6 +26,33 @@ pokes = {
             "txt": """ """,
             "esc": None}],
     },
+
+        "dodoco": {
+        "name": "Dodoco",
+        "hp": 18,
+        "atc": 4,
+        "defense": 1,
+        "attacks": ["tackle", "pepple_fire"],
+        "pool": ["brick_throw"],
+        "miss_chance": 0.05,
+        "desc": "A round and cheerful creature that loves causing small explosions.",
+        "lose_xp": 3,
+        "rarity": 0.8,
+        "types": ["fire", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 6,
+        "ico": [{
+            "txt": r"""
+    \|/
+   (o o)
+   ( v )
+  /(###)\
+     ^""",
+            "esc": None}],
+    },
+
+
     "steini": {
         "name": "Steini",
         "hp": 25,
