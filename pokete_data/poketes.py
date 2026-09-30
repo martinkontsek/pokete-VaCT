@@ -1473,6 +1473,28 @@ W         W""",
     ''""",
             "esc": None}]
     },
+
+    "johnpoket": {
+        "name": "JohnPoket",
+        "hp": 3000,
+        "atc": 3000,
+        "defense": 3000,
+        "attacks": ["tackle", "politure", "stone_crush", "brick_throw"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "Cool and so chill, dont piss him off.",
+        "lose_xp": 3,
+        "rarity": 1000,
+        "types": ["normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5000,
+        "ico": [{
+            "txt": r""" _________
+ |_______|_
+ |  O  o |
+ |___--__| """,
+            "esc": None}],
 }
 
 if __name__ == "__main__":
