@@ -1473,6 +1473,30 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "capybara": {
+        "name": "Capy-Bara",
+        "hp": 50,
+        "atc": 3,
+        "defense": 8,
+        "attacks": ["bite", "poop","cry", "power_bite"],
+        "pool": [],
+        "miss_chance": 0.01,
+        "desc": "The most cuties capybara on the world.",
+        "lose_xp": 10,
+        "rarity": 0.5,
+        "types": ["water", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 5,
+        "ico": [{
+            "txt": r"""  /\____/\
+ \	    /
+  |o  o|
+  \    /
+   \../
+    ''""",
+            "esc": None}]
+    },
 }
 
 if __name__ == "__main__":
