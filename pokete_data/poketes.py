@@ -1473,6 +1473,27 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "democorgon": {
+        "name": "Democorgon",
+        "hp": 60,
+        "atc": 5,
+        "defense": 8,
+        "attacks": ["tackle"],
+        "pool": ["supercow_power", "meat_skewer"],
+        "miss_chance": 0,
+        "desc": "A cow-like creature found in meadows.",
+        "lose_xp": 6,
+        "rarity": 1,
+        "types": ["normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 2,
+        "ico": [{
+            "txt": r"""    ^__^
+    (oo)
+    (__)""",
+            "esc": None}],
+    },
 }
 
 if __name__ == "__main__":
