@@ -1435,7 +1435,7 @@ w        w""",
         "attacks": ["poison_bite", "bite", "webattack", "power_bite"],
         "pool": [],
         "miss_chance": 0,
-        "desc": "Dnagerous spider like Pokete with strong mandibles.",
+        "desc": "Dangerous spider like Pokete with strong mandibles.",
         "lose_xp": 4,
         "rarity": 0.5,
         "types": ["poison", "normal"],
@@ -1472,6 +1472,30 @@ W         W""",
    \../
     ''""",
             "esc": None}]
+    },
+    "dārilaros": {
+            "name": "Dārilaros",
+            "hp": 67,
+            "atc": 10,
+            "defense": 7,
+            "attacks": ["ground_hit", "heart_touch", "mind_blow", "power_bite"], # he knows them
+            "pool": ["shock"],                                                   # he can learn them
+            "miss_chance": 1,
+            "desc": "Horse with kings crown using trident.",
+            "lose_xp": 6,
+            "rarity": 0.01,
+            "types": ["ground", "undead", "normal"],
+            "evolve_poke": "GodDārilaros",
+            "evolve_lvl": 7,
+            "initiative": 9,
+            "ico": [{
+                "txt": r"""   /\/\/\
+                              |o  o|
+                              \ ω  /_______
+                               \....________\
+                                |  |     ||  |
+                ''""",
+                "esc": None}]
     },
 }
 
