@@ -1473,6 +1473,31 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "bubak": {
+        "name": "Bubak",
+        "hp": 200,
+        "atc": 5,
+        "defense": 5,
+        "attacks": ["bite", "slash", "poison"],
+        "pool": [],
+        "miss_chance": 0.1,
+        "desc": "A mysterious Pokete living in the woods.",
+        "lose_xp": 4,
+        "rarity": 0.7,
+        "types": ["stone", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 4,
+        "ico": [{
+            "txt": r""" 
+   ┌___┐
+  /o   o\
+  |     |
+ /   ^   \
+  |  -  |
+  +-----+ """,
+            "esc": None}],
+    },
 }
 
 if __name__ == "__main__":
