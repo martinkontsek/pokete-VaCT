@@ -1473,6 +1473,28 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "bitkar": {
+            "name": "Bitkar",
+            "hp": 200,
+            "atc": 10,
+            "defense": 10,
+            "attacks": ["pravy_hak", "lavy_hak", "kopacka_na_solar", "dropkick"],
+            "pool": [],
+            "miss_chance": 0,
+            "desc": "Opitý Ír.",
+            "lose_xp": 3,
+            "rarity": 1,
+            "types": ["stone", "normal"],
+            "evolve_poke": "",
+            "evolve_lvl": 0,
+            "initiative": 5,
+            "ico": [{
+                "txt": r""" @__,
+                /\\__,
+               / \\
+              /  |""",
+                "esc": None}],
+    },
 }
 
 if __name__ == "__main__":
