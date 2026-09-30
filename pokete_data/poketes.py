@@ -1473,7 +1473,31 @@ W         W""",
     ''""",
             "esc": None}]
     },
-}
+    
+        "pentium": {
+            "name": "pentium",
+            "hp": 32,
+            "atc": 4,
+            "defense": 2,
+            "attacks": ["poison_bite", "bite", "webattack", "power_bite"],
+            "pool": [],
+            "miss_chance": 0,
+            "desc": "Dnagerous spider like Pokete with strong mandibles.",
+            "lose_xp": 3,
+            "rarity": 0.5,
+            "types": ["poison", "normal"],
+            "evolve_poke": "",
+            "evolve_lvl": 0,
+            "initiative": 4,
+            "ico": [{
+                "txt": r"""  /\~-~/\
+     //\0_0/\\
+     ||      ||
+     \\ ''' //
+      
+    W         W""",
+                "esc": None}]
+}}
 
 if __name__ == "__main__":
     print("\033[31;1mDo not execute this!\033[0m")
