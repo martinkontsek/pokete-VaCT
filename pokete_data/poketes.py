@@ -1473,7 +1473,34 @@ W         W""",
     ''""",
             "esc": None}]
     },
+
+### -----------------
+
+    "sparky": {
+        "name": "Sparky",
+        "hp": 22,
+        "atc": 5,
+        "defense": 2,
+        "attacks": ["tackle", "shock", "charging"],
+        "pool": ["mega_arch"],
+        "miss_chance": 0,
+        "desc": "A small electric cat that gets easily excited and sparks.",
+        "lose_xp": 3,
+        "rarity": 1.0,
+        "types": ["electro", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 6,
+        "ico": [{
+            "txt": r""" /\___/\
+( o   o )
+ )  v  ( 
+(_______)""",
+            "esc": ["yellow"]}]
+    },
 }
+
+
 
 if __name__ == "__main__":
     print("\033[31;1mDo not execute this!\033[0m")
