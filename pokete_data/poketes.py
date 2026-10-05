@@ -1473,6 +1473,35 @@ W         W""",
     ''""",
             "esc": None}]
     },
+
+"ignidrake": {  # This is the Poketes simplified name/identifier without spaces and in lowercase, which is used to refer to the Pokete in the code
+        "name": "Ignidrake",  # This is the Pokete's pretty name
+        "hp": 34,  # The Pokete's max health points
+        "atc": 9,  # The Pokete's attack points that will added to the Pokete's level
+        "defense": 6,  # The Pokete's defense points that will added to the Pokete's level
+        "attacks": ["bite", "fire_bite", "flame_throw",],  # The Pokete's starting attacks
+        "pool": ["fire_ball", "power_bite"],  # List of additional ungeneric attacks the Pokete can learn
+        "miss_chance": 0.05,  # The chance a Pokete will miss an attack, this is added to the attacks individual `miss_chance`
+        "desc": "A vicious fire dragon born deep inside an active volcano.",  # The Pokete's description
+        "lose_xp": 6,  # The amount of experience the player gets by killing the Pokete
+        "rarity": 0.2,  # Rarity
+        "types": ["fire", "flying"],  # The Pokete's types
+        "evolve_poke": "",  # The name/identifier of the Pokete, that this Pokete evolves to at a certain level
+        "evolve_lvl": 0,  # The level the Pokete evolves at
+        "initiative": 7,  # The Pokete's initiative points that will added to the Pokete's level, and determine what Pokete starts in a fight
+        "ico": [{  # A list of dictionaries containing a displayed string and a color; all those strings will be layered over each other and represent the Pokete in the fight
+            "txt": r"""   /^\/\
+                        < o  )>
+                        /V\/
+                        /_/\_\""",
+            "esc": None
+        }, {
+            "txt": r"""      *
+        *
+        *""",
+            "esc": ["thicc", "red"]
+        }]
+    },
 }
 
 if __name__ == "__main__":
