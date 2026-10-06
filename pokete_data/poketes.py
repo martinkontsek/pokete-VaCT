@@ -1473,6 +1473,31 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "samuron": {
+    "name": "Samuron",
+    "hp": 999,
+    "atc": 50,
+    "defense": 50,
+    "attacks": ["god_smash", "death_touch"],
+    "pool": ["hiding"],
+    "miss_chance": 0,
+    "desc": "A Legendary Pokete only seen by the greatest Pokete trainers.",
+    "lose_xp": 3,
+    "rarity": 0.1,
+    "types": ["undead", "normal"],
+    "evolve_poke": "",
+    "evolve_lvl": 0,
+    "initiative": 99,
+    "ico": [{
+        "txt": r"""   _____
+ / \___/ \
+ \       /
+  |o   o|
+  \     /
+   \.../""",
+        "esc": None
+    }]
+    },
 }
 
 if __name__ == "__main__":
