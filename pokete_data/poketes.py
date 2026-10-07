@@ -1473,6 +1473,32 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "pivko": {
+        "name": "Pivko",
+        "hp": 28,
+        "atc": 4,
+        "defense": 3,
+        "attacks": ["tackle", "bubble_gun", "snooze", "wet_slap"],
+        "pool": [],
+        "miss_chance": 0,
+        "desc": "A cheerful pint of beer with a thick foam hat. Cold, golden "
+                "and a little lazy, it splashes enemies with bubbles until "
+                "they get so sleepy they forget what they were fighting for.",
+        "lose_xp": 3,
+        "rarity": 0.8,
+        "types": ["water", "normal"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 3,
+        "ico": [{
+            "txt": r"""
+ | o  o |]
+ |  \/  |]
+ '------'""",
+            "esc": ["yellow"]}, {
+            "txt": r""" .oOo.oO.""",
+            "esc": ["thicc"]}]
+    },
 }
 
 if __name__ == "__main__":
