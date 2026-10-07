@@ -26,6 +26,33 @@ pokes = {
             "txt": """ """,
             "esc": None}],
     },
+    "obsidian": {
+        "name": "Obsidian",
+        "hp": 40,
+        "atc": 5,
+        "defense": 7,
+        "attacks": ["stone_crush", "brick_throw", "rock_smash"],
+        "pool": [],
+        "miss_chance": 0.05,
+        "desc": "A heavy golem forged from volcanic glass. "
+                "Its cracked armor glows with trapped heat.",
+        "lose_xp": 8,
+        "rarity": 0.3,
+        "types": ["stone"],
+        "evolve_poke": "",
+        "evolve_lvl": 0,
+        "initiative": 2,
+        "ico": [{
+            "txt": r"""   /^^^\
+  / [=] \
+ <|  #  |>
+  |_| |_|""",
+            "esc": ["lightgrey"]
+        }, {
+            "txt": "\n    [=]\n     #",
+            "esc": ["red"]
+        }],
+    },
     "steini": {
         "name": "Steini",
         "hp": 25,
