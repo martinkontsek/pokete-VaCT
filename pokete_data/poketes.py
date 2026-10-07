@@ -1427,6 +1427,30 @@ that will confuse the shit out of you.",
 w        w""",
             "esc": None}]
     },
+    "fruli": { 
+    "name": "Fruli", 
+    "hp": 22,  
+    "atc": 3,  
+    "defense": 2,  
+    "attacks": ["tackle", "flutter", "confuse_ray"],  
+    "pool": [], 
+    "miss_chance": 0,  
+    "desc": "A fluffy, chaotic creature that floats around making silly noises.",  
+    "lose_xp": 4,  
+    "rarity": 2, 
+    "types": ["flying", "fairy"],  
+    "evolve_poke": "",  
+    "evolve_lvl": 0,  
+    "initiative": 8, 
+    "ico": [{
+    "txt": r"""    .-.
+ .-(o o)-.
+(   \~\/   )
+ '-._|_.-'
+    / \ """,
+    "esc": None
+}],
+},
     "uberpavous": {
         "name": "Uberpavous",
         "hp": 25,
