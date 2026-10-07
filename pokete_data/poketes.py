@@ -1473,6 +1473,33 @@ W         W""",
     ''""",
             "esc": None}]
     },
+    "mrakodráp": {
+            "hp": 20,
+                    "atc": 6,
+                    "defense": 2,
+                    "attacks": ["scrape", "wing_hit"],
+                    "pool": [],
+                    "miss_chance": 0.1,
+                    "desc": "A dark butterfly that will scrape you away.",
+                    "lose_xp": 4,
+                    "rarity": 1,
+                    "night_active": True,
+                    "types": ["flying", "undead"],
+                    "evolve_poke": "",
+                    "evolve_lvl": 0,
+                    "initiative": 4,
+                    "ico": [{
+                        "txt": r"""  __`o´__
+              {_\|/_}
+              {_/'\_} """,
+                        "esc": None}, {
+                        "txt": r""" .       .
+            
+            
+             ´       `""",
+                "esc": ["thicc", "blue"]}
+                    ]
+        }
 }
 
 if __name__ == "__main__":
